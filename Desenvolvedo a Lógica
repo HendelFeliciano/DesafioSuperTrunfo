@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    int saoPaulo = 12300000;
+    int rioDeJaneiro = 6000000;
+//Carta 1 - São Paulo (SP): 12.300.000
+//Carta 2 - Rio de Janeiro (RJ): 6.000.000
+
+    if(saoPaulo > rioDeJaneiro){
+        printf("São Paulo venceu! \n");
+    } else (saoPaulo < rioDeJaneiro){
+        printf("Rio de Janeiro venceu! \n");
+    }
+}
